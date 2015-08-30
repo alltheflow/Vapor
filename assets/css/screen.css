@@ -200,7 +200,7 @@ blockquote {
   margin-left: 1em;
   padding-left: 1em;
 }
-blockquote p {    
+blockquote p {
   font-weight: 300;
   line-height: 1.4em;
   font-size: 18px;
@@ -502,7 +502,7 @@ table thead {
   border-bottom: 1px solid #ecf0f1;
 }
 table tbody tr:nth-child(even) {
-  background-color: #ecf0f1;
+  background-color: #F3F3F3;
   border-top: 1px solid #e3e9eb;
   border-bottom: 1px solid #e3e9eb;
 }

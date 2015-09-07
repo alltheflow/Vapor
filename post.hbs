@@ -6,25 +6,6 @@
 
         {{#post}}
 
-        {{#contentFor "meta"}}
-
-          <!-- Open Graph Meta Tags -->
-          <meta property="og:type" content="article"/>
-          <meta property="og:title" content="{{title}}"/>
-          <meta property="og:description" content="{{excerpt characters="220"}}"/>
-          <meta property="og:site_name" content="All The Flow"/>
-          <meta property="og:url" content="https://alltheflow.com{{url}}"/>
-          <meta property="og:image" content="{{asset "img/logo_square.png"}}"/>
-          <meta property="fb:admins" content="100004324051806"/>
-
-          <!-- Twitter Card Meta Tags -->
-          <meta name="twitter:card" content="summary"/>
-          <meta name="twitter:title" content="{{title}}"/>
-          <meta name="twitter:description" content="{{excerpt characters="220"}}"/>
-          <meta name="twitter:image" content="{{asset "img/logo_square.png"}}"/>
-          <meta name="twitter:site" content="@_alltheflow"/>
-        {{/contentFor}}
-
         <header>
         {{#if tags}}<div class="post-meta tags">Posted in {{tags}}</div>{{/if}}
         <h1 class="post-title">{{{title}}}</h1>

@@ -1,5 +1,27 @@
 {{!< default}}
 
+{{#contentFor "meta"}}
+  <!-- Classic Meta Tags -->
+  <title>Gentlenode Studio | Journal</title>
+  <meta name="description" content="Add your description.">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="All The Flow Blog"/>
+  <meta property="og:description" content="Cocoa, reactive programming, Swift, DX & coding in general"/>
+  <meta property="og:site_name" content="All The Flow"/>
+  <meta property="og:url" content="https://alltheflow.com/"/>
+  <meta property="og:image" content="{{asset "img/logo_square.png"}}"/>
+  <meta property="fb:admins" content="100004324051806"/>
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="All The Flow"/>
+  <meta name="twitter:description" content="Cocoa, reactive programming, Swift, DX & coding in general"/>
+  <meta name="twitter:image" content="{{asset "img/logo_square.png"}}"/>
+  <meta name="twitter:site" content="@_alltheflow"/>
+{{/contentFor}}
+
 <main class="content" role="main">
 
     {{#foreach posts}}

@@ -14,7 +14,6 @@
 
     <link rel="image_src" href="{{asset "img/logo_square.png"}}" />
     <link rel="icon" type="image/png" href="{{asset "img/favico.png"}}" />
-    <link rel="rss_icon" type="image/png" href="{{asset "img/feed-icon.png"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:300,400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300">
@@ -38,7 +37,6 @@
     <footer class="site-footer">
         <div class="inner">
             {{!> footer-description}}
-            <section><a class="rss_icon" href="{{@blog.url}}/rss/"></a></section>
             <section><a href="https://twitter.com/alltheflowblog" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @alltheflowblog</a></section>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
             <section class="copyright">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved.</section>

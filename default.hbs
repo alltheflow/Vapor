@@ -26,6 +26,7 @@
 <body class="{{body_class}}">
 
     <header id="site-head">
+        <a href="{{@blog.url}}/about" style="float:right">About</a>
         {{#if @blog.logo}}<a id="blog-logo" href="{{@blog.url}}"><div class="bloglogo" style="background: url({{@blog.logo}})"></div></a>{{/if}}
         <h1 class="blog-title"><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
         {{> header-description}}
